@@ -1,1 +1,23 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-primary-family: "Inter", sans-serif;
+  --font-secondary-family: "PressStart2P", monospace;
+  --font-weight-n: 400;
+  --font-weight-b: 700;
+  --font-size-m: 18px;
+  --font-size-s: 14px;
+  --card-width: clamp(375px, 90vw, 700px);
+  --bg-pattern: 
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px), 
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px), 
+    repeating-linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --bg-color: #ffffff;
+  --border-color: #000000;
+  --text-color-stroke: #ffffff;
+  --text-color-common: #000000;
+  --text-color-accent: #ffffff;
+  --like-icon-color-main: #ff0000;
+  --like-icon-color-core: #ffffff;
+  --like-icon-color-sparks: #ff0000;
+  --like-icon-color-contour: #000000;
+}
